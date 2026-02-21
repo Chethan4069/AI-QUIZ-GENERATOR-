@@ -13,3 +13,4 @@ asyncpg          # <--- Add this for async support (optional but good)
 langchain-ollama
 tiktoken
 langchain-text-splitters
+json_repair
