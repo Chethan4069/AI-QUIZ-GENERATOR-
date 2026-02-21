@@ -14,3 +14,6 @@ langchain-ollama
 tiktoken
 langchain-text-splitters
 json_repair
+langchain-core
+langchain-community
+langchain-groq
