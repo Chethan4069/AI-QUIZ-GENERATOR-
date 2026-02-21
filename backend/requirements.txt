@@ -4,8 +4,8 @@ python-multipart  # For file uploading
 pypdf             # To read PDF files
 langchain         # To manage AI logic
 langchain-openai  # To talk to GPT-4o
-chromadb          # Vector Database (for RAG)
-pydantic          # Data validation
+chromadb==0.4.24  # Vector Database (for RAG)
+pydantic<2        # Data validation
 python-dotenv     # To read .env files
 sqlalchemy        # For the SQLite Database
 psycopg2-binary  # <--- Add this line
