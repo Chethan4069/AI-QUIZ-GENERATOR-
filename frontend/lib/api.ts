@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000', // Your Python Backend URL
+  baseURL: 'https://ai-quiz-generator-bo8a.onrender.com', // Your Python Backend URL
 });
 
 export const uploadPDF = async (file: File) => {
